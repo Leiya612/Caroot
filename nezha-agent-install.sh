@@ -106,8 +106,8 @@ After=syslog.target
 
 [Service]
 Type=simple
-User=root
-Group=root
+User=nezha
+Group=nezha
 WorkingDirectory=/opt/nezha/agent/
 ExecStart=$exec_start
 Restart=always
