@@ -39,7 +39,7 @@ cd /opt/nezha/agent || exit
 
 # 步骤2：下载并解压二进制文件
 echo "正在下载Nezha Agent..."
-wget https://github.com/nezhahq/agent/releases/download/v0.17.6/nezha-agent_linux_amd64.zip -O nezha-agent_linux_amd64.zip
+wget https://github.com/railzen/nezha-zero/releases/download/v0.20.23/nezha-agent_linux_amd64.zip -O nezha-agent_linux_amd64.zip
 
 # 检查是否安装unzip
 if ! command -v unzip &> /dev/null; then
