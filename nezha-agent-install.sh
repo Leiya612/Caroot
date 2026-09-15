@@ -98,6 +98,13 @@ if [[ $disable_command =~ ^[Yy]$ ]]; then
     exec_start+=" --disable-command-execute"
 fi
 
+# 选项5
+read -rp "5. 是否使用tls链接 (--tls)(默认使用-Y) [y/N]: " lj_tls
+lj_tls=${lj_tls:-Y}
+if [[ $lj_tls =~ ^[Yy]$ ]]; then
+    exec_start+=" --tls"
+fi
+
 # 创建服务文件
 cat > /etc/systemd/system/nezha-agent.service <<EOF
 [Unit]
