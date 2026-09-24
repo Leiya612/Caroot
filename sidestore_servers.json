@@ -2,7 +2,7 @@
     "servers": [
         {
             "name": "mosskai",
-            "address": "https://mosskai.onrender.com/"
+            "address": "https://mosskai.onrender.com"
         }
     ]
 }
