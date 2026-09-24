@@ -1,12 +1,21 @@
 {
-    "servers": [
-        {
-            "name": "mosskai",
-            "address": "https://mosskai.onrender.com"
-        },
-        {
-            "name": "sidestore",
-            "address": "https://mosskai.onrender.com"
-        }
-    ]
+  "servers": [
+    {
+      "name": "mosskai",
+      "address": "https://mosskai.onrender.com"
+    },
+    {
+      "name": "SideStore (.app)",
+      "address": "https://ani.sidestore.app"
+    },
+    {
+      "name": "SideStore (.zip)",
+      "address": "https://ani.sidestore.zip"
+    },
+    {
+      "name": "SideStore (.xyz)",
+      "address": "https://ani.846969.xyz"
+    }
+  ],
+  "cache": "https://servers.sidestore.io/servers.json.hash"
 }
