@@ -3,6 +3,10 @@
         {
             "name": "mosskai",
             "address": "https://mosskai.onrender.com"
-        }
+        },
+        {
+            "name": "sidestore",
+            "address": "https://mosskai.onrender.com"
+        },
     ]
 }
